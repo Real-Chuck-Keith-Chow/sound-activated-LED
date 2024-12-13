@@ -24,7 +24,9 @@ The system works as follows:
 
 ## Components Used
 - **ESP32 Microcontroller**: Handles the logic and controls the LED.
+   - ELEGOO ESP32 2pcs ESP-WROOM-32 Development Board, USB Type-C [https://www.amazon.ca/dp/B0D8T7Z1P5?ref=ppx_pop_mob_ap_share&th=1].
 - **Sound Sensor**: Detects sound and outputs a digital signal (LOW for noise).
+   - DAOKI 5-Pack High Sensitivity Sound Microphone Sensor Detection Module for Arduino AVR PIC [https://www.amazon.ca/dp/B00XT0PH10?ref=ppx_pop_mob_ap_share].   
 - **LED**: A visual indicator toggled by the clap detection logic.
 - **Resistor**: 220Ω for limiting current to the LED.
 - **10kΩ Pull-Down Resistor**: Ensures stable sensor output.
