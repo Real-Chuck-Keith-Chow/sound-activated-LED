@@ -35,7 +35,7 @@ The system works as follows:
 
 ## Wiring
 - **Sound Sensor**:
-  - `VCC` → ESP32 `3.3V`
+  - `VCC` → ESP32 `VIN` (It could go to `3.3V` instead, but since the sound sensor requires an input of 5V, we used `VIN`).
   - `GND` → ESP32 `GND`
   - `OUT` → ESP32 `GPIO34` or `D34`
 - **LED**:
@@ -48,7 +48,7 @@ The system works as follows:
 ```plaintext
 Sound Sensor:
 +---------+
-| VCC ---+--------- 3.3V
+| VCC ---+--------- VIN
 | GND ---+--------- GND
 | OUT ---+-------- GPIO34
 |         |
